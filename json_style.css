@@ -1,5 +1,4 @@
-  /* Reset + base */
-    * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,7 +15,6 @@
     color: #333;
   }
 
-  /* Main container */
   body > div {
     background: #dd9494;
     padding: 40px;
@@ -40,7 +38,7 @@
     font-size: 15px;
   }
 
-  /* Form styling */
+
   form {
     display: flex;
     flex-direction: column;
@@ -102,14 +100,14 @@
     transform: translateY(0);
   }
 
-  /* JSON Output */
+
   #jsonOutput {
     margin-top: 24px;
     border-radius: 8px;
     background: #1a202c;
     color: #e2e8f0;
     overflow: hidden;
-    display: none; /* Hidden until there's content */
+    display: none; 
   }
 
   #jsonOutput:has(pre) {
@@ -127,7 +125,7 @@
     word-wrap: break-word;
   }
 
-  /* Mobile responsive */
+ 
   @media (max-width: 600px) {
     body > div {
       padding: 24px;
