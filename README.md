@@ -2,7 +2,7 @@ JSON, which stands for JavaScript Object Notation, is a lightweight data format 
 
 The structure of JSON is built on two universal data types. The first is a collection of name/value pairs, often called an object, record, dictionary, hash table, or associative array depending on the language. In JSON, an object is wrapped in curly braces { }. Inside, each name is a string in double quotes, followed by a colon, then the value. Multiple pairs are separated by commas. For example: { "name": "Ava", "age": 24, "active": true }.
 
-The second data type is an ordered list of values, called an array in JSON. Arrays use square brackets [ ] and can contain strings, numbers, booleans, objects, other arrays, or null. Commas separate the elements. An example: { "skills": ["Python", "SQL", "Figma"], "scores": }.[95][88][92]
+The second data type is an ordered list of values, called an array in JSON. Arrays use square brackets [ ] and can contain strings, numbers, booleans, objects, other arrays, or null. Commas separate the elements. 
 
 JSON supports six basic value types. Strings must be in double quotes and can include escaped characters like \n for newline or \" for a quote. Numbers can be integers or decimals, positive or negative, and may use scientific notation like 1.2e3. Booleans are just true or false, written in lowercase with no quotes. Null represents an empty value and is also lowercase. Objects and arrays can be nested to any depth, which lets JSON model complex, hierarchical data. For instance, an API might return an object containing an array of user objects, each with its own nested address object.
 
