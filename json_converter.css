@@ -125,7 +125,7 @@
     word-wrap: break-word;
   }
 
- 
+
   @media (max-width: 600px) {
     body > div {
       padding: 24px;
